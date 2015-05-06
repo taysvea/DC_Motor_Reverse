@@ -13,6 +13,7 @@ void setup()
   pinMode(in1Pin, OUTPUT);
   pinMode(in2Pin, OUTPUT);
   pinMode(enablePin, OUTPUT);
+  pinMode(switchPin, INPUT_PULLUP);
 }
 
 void loop()
